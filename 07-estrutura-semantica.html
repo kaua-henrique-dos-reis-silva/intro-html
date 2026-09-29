@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site sobre a estrutura semânyica">
+    <title> Sobre estrutura semântica | HTML </title>
+
+    <style>
+        body {
+            background-color: #1d1d1d;
+            font-family: sans-serif;
+            color: white;
+        }
+
+        header {
+            background-color: brown;
+        }
+
+        section {
+            border: 4px solid greenyellow;
+            background-color: purple;
+            padding: 20px;
+        }
+
+        footer {
+            background-color: tan;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- header - representa o cabeçalho de uma página ou de uma seção. -->
+    <header>
+        <h1> Logo </h1>
+
+        <!-- nav/navegation - representa uma área de navegação -->
+
+        <!-- agrupamos os itens de navegação dentro de uma lista por conta de acessibilidade (acessibilidade diz ao usuário qual item está sendo utilizado para navegar) -->
+        <nav>
+            <ul>
+                <li><a href="">Tópico 1</a></li>
+                <li><a href="">Tópico 2</a></li>
+                <li><a href="">Tópico 3</a></li>
+            </ul>
+        </nav>
+
+        <!-- <nav>
+            <a href="/">Home</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="contato.html">Contato</a>
+        </nav> -->
+    </header>
+
+    <!-- main/principal - representa o conteúdo principal da página. Uma página deve ter apenas UM CONTEÚDO PRINCIPAL. -->
+    <main>
+        <section> <!-- section/seção - representa uma SEÇÃO TEMÁTICA DE CONTEÚDO. -->
+            <h2> Projetos </h2>
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae rerum dolores autem vitae, dolor unde perferendis inventore corporis quia iusto veritatis mollitia possimus veniam, adipisci sint. Maxime architecto eligendi quasi. </p>
+
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio perferendis sequi cum consequatur esse nisi blanditiis cupiditate dolores aspernatur voluptatum dolorum pariatur cumque repellendus incidunt nihil at, illum harum libero. </p>
+        </section>
+
+        <section>
+            <h2> Contato </h2>
+            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi voluptatem, sapiente cupiditate aperiam temporibus eligendi ex voluptates adipisci officiis aspernatur nisi, suscipit similique praesentium cum perferendis, sed possimus? Omnis, minima. </p>
+
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat dolores cupiditate aliquid corporis similique. Voluptates earum dolor repudiandae iure. Dicta beatae assumenda neque, nulla eveniet deserunt id ullam quam adipisci. </p>
+        </section>
+
+        <section>
+            <h2> Últimos artigos </h2>
+
+            <article> <!-- article/artigo - representaum conteúdo que faz sentido de maneira independente. -->
+                <h3>Aprendendo HTML</h3>
+                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque voluptatem culpa dignissimos aliquid. Iure magni maxime labore excepturi corrupti itaque quaerat? Ab magnam saepe quod velit inventore ipsam odio commodi. </p>
+            </article>
+
+            <article>
+                <h3>Aprendendo CSS</h3>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores sed quisquam voluptates nihil velit reiciendis quo eum. Minima quam explicabo cum, tenetur odit eos tempora ducimus quia quae praesentium nesciunt. </p>
+            </article>
+
+            <article>
+                <h3>Aprendendo JS</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam officiis debitis rem minus alias a. Ipsam, esse! Voluptates distinctio molestiae amet, nihil, dolorum magni adipisci esse ex laboriosam incidunt quidem! </p>
+            </article>
+        </section>
+        <!-- aside/aparte - representa conteúdo relacionado, mas não essencial ao conteúdo principal. -->
+        <aside>
+            <h2>Artigos relacionados</h2>
+            <nav>
+                <ul>
+                    <li><a href="aprenda-java.html">Aprenda Java</a></li>
+                    <li><a href="domine-react.html">Domine React</a></li>
+                    <li><a href="explore-ux-ul.html">Explore UX E UI</a></li>
+                </ul>
+            </nav>
+
+            <!-- <section>
+                <h4> Como funciona a tromba dos elefantes?</h4> 
+            </section> -->
+
+            <article>
+                <header>
+                    <h3> Meu artigo </h3>
+                </header>
+
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis perferendis a dicta suscipit nihil corrupti iure quo adipisci rerum, quos, maiores sint fugiat omnis incidunt molestiae commodi maxime doloremque. Ad. </p>
+
+                <footer>
+                    <p> Publicado por KH </p>
+                </footer>
+            </article>
+        </aside>
+    </main>
+
+    <!-- footer - representa o rodapé de uma PÁGINA ou SEÇÃO. -->
+    <footer>
+        <p>&copy;2026 - Kauã Henrique</p>
+        <address>
+            <a href="mailto:seuemail0@gmail.com">E-mail: seuemail@gmail.com</a>
+            <a href="tel:+5511999999999">Tel: (11) 99999-9999</a>
+            <p> Rua Ali, Número 19 - São Paulo - SP</p>
+        </address>
+
+        <nav>
+            <ul>
+                <li><a href="/"></a>Página Inicial</li>
+                <li><a href="/"></a>Página de carreiras</li>
+                <li><a href="/"></a>Sobre a empresa</li>
+                <li><a href="/"></a>Termos e privacidade</li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
